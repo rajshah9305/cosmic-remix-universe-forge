@@ -1,11 +1,21 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import CosmicChatbot from '@/components/CosmicChatbot';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-gradient-to-br from-purple-900/20 via-blue-900/20 to-indigo-900/20 p-4">
+      <div className="container mx-auto py-8">
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-4">
+            🌟 Cosmic App Universe Builder
+          </h1>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Build amazing applications with the power of AI. Upload files, images, and let our cosmic assistant help you create something extraordinary.
+          </p>
+        </div>
+        
+        <CosmicChatbot />
       </div>
     </div>
   );
