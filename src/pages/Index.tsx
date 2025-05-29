@@ -11,7 +11,7 @@ const Index = () => {
             🌟 Cosmic App Universe Builder
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Build amazing applications with the power of AI. Upload files, images, and let our cosmic assistant help you create something extraordinary.
+            Build amazing applications with the power of AI. Upload files, images, videos, documents and let our cosmic assistant help you create something extraordinary with advanced file management and processing capabilities.
           </p>
         </div>
         
